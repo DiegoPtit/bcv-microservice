@@ -1,16 +1,16 @@
-# Binance P2P Scraper - Microservicio
+# BCV P2P Scraper - Microservicio (Fork from binance-microservice)
 
-Microservicio para extraer precios USDT/VES de Binance P2P y actualizar automáticamente el precio paralelo en la aplicación de inventario.
+Microservicio para extraer la ponderacion del dolar BCV y actualizar automáticamente el precio paralelo en la aplicación de inventario.
 
-## 📋 Características
+## Características
 
-- ✅ **Scraping automático** de precios USDT/VES de Binance P2P
-- ✅ **Compatible con Replit** y entornos serverless
-- ✅ **Bypass de anti-bot** automático con Puppeteer
-- ✅ **API RESTful** con múltiples endpoints
-- ✅ **Logging detallado** de todas las operaciones
+- **Scraping automático** de precios del BCV
+- **Compatible con Replit** y entornos serverless (En pruebas aun)
+- **Bypass de anti-bot** automático con Puppeteer
+- **API RESTful** con múltiples endpoints
+- **Logging detallado** de todas las operaciones
 
-## 🚀 Instalación
+## Instalación (En replit, etc... Todavía no se ha implementado)
 
 ### En Replit (Recomendado)
 
@@ -52,7 +52,7 @@ Microservicio para extraer precios USDT/VES de Binance P2P y actualizar automát
    npm start
    ```
 
-## 📡 Endpoints
+## Endpoints
 
 ### `GET /health`
 Verif Estado del servicio.
@@ -132,7 +132,7 @@ Obtiene la configuración actual del servicio.
 - **axios** para HTTP requests
 - **dotenv** para configuración
 
-## ⚙️ Configuración
+## Configuración
 
 ### Variables de Entorno
 
@@ -145,7 +145,7 @@ Obtiene la configuración actual del servicio.
 | `PAGE_TIMEOUT` | Timeout para navegación (ms) | `30000` |
 | `REPLIT` | Si está en Replit | `false` |
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### En Replit
 
@@ -155,7 +155,7 @@ Obtiene la configuración actual del servicio.
 
 ### En Local
 
-- Asegúrat de tener **Google Chrome** instalado
+- Asegúrate de tener **Google Chrome** instalado
 - En Windows, verifica las rutas del ejecutable
 - En Linux, instala: `apt-get install chromium-browser`
 
@@ -169,10 +169,6 @@ Obtiene la configuración actual del servicio.
 - El código usa automáticamente @sparticuz/chromium
 - No requiere instalación adicional
 
-## 📝 Licencia
-
-MIT
-
-## 👤 Autor
+## Autor
 
 DiegoPtit
